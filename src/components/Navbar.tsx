@@ -11,9 +11,9 @@ function Navbar() {
                 <p className="text-xl font-bold text-gray-900 transition hover:text-blue-600">Zahra Khansari </p>
             </Link>
             {/* menu items */}
-            <div className="left ">
+            <div className="flex gap-6 ">
                 <Link to="/"
-                    className="text-red-700 transition hover:text-black">Home</Link>
+                    className="text-gray-700 transition hover:text-black">Home</Link>
                 <Link to="/about"
                     className="text-gray-700 transition hover:text-black">About</Link>
                 <Link to="/portfolio"
