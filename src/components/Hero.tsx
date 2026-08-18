@@ -1,7 +1,8 @@
 
+// import { useNavigate } from "react-router-dom";
 
 
-
+// const navigate = useNavigate();
 
 
 function Hero() {
@@ -34,6 +35,14 @@ function Hero() {
                 <div className="flex justify-center">
                     <img src={"/images/zarakhansari.jpeg"} alt="Zahra Khansari" className="h-80 w-80 rounded-full object-cover" />
                 </div>
+
+            </div>
+            <div>
+                <button
+                    className="rounded-lg bg-blue-600 px-6 py-3 font-medium text-white transition hover:bg-blue-700"
+                >
+                    View My Projects
+                </button>
 
             </div>
         </section>

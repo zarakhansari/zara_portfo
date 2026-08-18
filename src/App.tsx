@@ -6,12 +6,12 @@ import Hero from './components/Hero'
 function App() {
 
 
-  return (
-    <>
-      <Navbar />
-      <Hero />
-    </>
-  )
+  return <>
+    <Navbar />
+    <Hero />
+
+  </>
 }
 
-      export default App
+
+export default App
