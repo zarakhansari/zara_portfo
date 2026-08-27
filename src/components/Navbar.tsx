@@ -17,7 +17,7 @@ function Navbar() {
                     className="text-gray-700 transition hover:text-black">Home</Link>
                 <Link to="/About"
                     className="text-gray-700 transition hover:text-black">About</Link>
-                <Link to="/portfolio"
+                <Link to="/Projects"
                     className="text-gray-700 transition hover:text-black">Projects</Link>
                 <Link to="/contact" className="text-gray-700 transition hover:text-black">Contact</Link>
             </div>
