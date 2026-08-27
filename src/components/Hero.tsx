@@ -1,8 +1,8 @@
 
 // import { useNavigate } from "react-router-dom";
 
-import { Profiler } from "react";
-import ProfilePic from "./profilePic";
+
+
 
 
 // const navigate = useNavigate();
@@ -55,7 +55,7 @@ function Hero() {
                 </div>
 
                 {/* profile picture */}
-                <ProfilePic />
+                <img src="/images/zarakhansari.jpeg" alt="Zahra Khansari" className="h-80 w-80 rounded-full object-cover" />
 
             </div>
 
