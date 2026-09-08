@@ -1,4 +1,4 @@
-import ProfilePic from "../components/profilePic";
+
 
 
 const About = () => {
