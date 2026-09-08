@@ -6,19 +6,19 @@ function Projects() {
             title: "Zizo Couture",
             description: "A responsive e-commerce website built with React and TypeScript.",
             image: "/images/zizo-couture.webp",
-            link: "/",
+            link: "https://zizocutoure.vercel.app/",
         },
         {
             title: "Zaravia Travel Planner",
             description: "A responsive travel planner website built with React and TypeScript.",
             image: "/images/zaravia.webp",
-            link: "/",
+            link: "https://zaravia-woad.vercel.app/",
         },
         {
             title: "Mehdi Zoufan Artworks",
             description: "A responsive artworks gallery website built with React and TypeScript.",
             image: "/images/mehdi-zoufan.webp",
-            link: "/",
+            link: "https://mehdi-zoufan.vercel.app/",
         }
     ];
     return (
