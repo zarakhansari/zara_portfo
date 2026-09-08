@@ -5,8 +5,20 @@ function Projects() {
         {
             title: "Zizo Couture",
             description: "A responsive e-commerce website built with React and TypeScript.",
-            image: "/images/zizocouture.jpg",
-            link: "/shop",
+            image: "/images/zizo-couture.webp",
+            link: "/",
+        },
+        {
+            title: "Zaravia Travel Planner",
+            description: "A responsive travel planner website built with React and TypeScript.",
+            image: "/images/zaravia.webp",
+            link: "/",
+        },
+        {
+            title: "Mehdi Zoufan Artworks",
+            description: "A responsive artworks gallery website built with React and TypeScript.",
+            image: "/images/mehdi-zoufan.webp",
+            link: "/",
         }
     ];
     return (
