@@ -2,6 +2,7 @@
 // import { useNavigate } from "react-router-dom";
 
 import { Link } from "react-router-dom";
+import InteractivePortrait from "./InteractivePortrait";
 
 
 
@@ -86,12 +87,10 @@ function Hero() {
                     <div className="absolute -right-2 top-4 h-20 w-20 rounded-2xl bg-purple-200 md:right-4" />
 
                     {/* Image */}
-                    <div className="relative h-72 w-72 overflow-hidden rounded-[2rem] border-8 border-white shadow-xl md:h-96 md:w-96">
-                        <img
-                            src="/images/zarakhansari.jpeg"
-                            alt="Zahra Khansari"
-                            className="h-full w-full object-cover"
-                        />
+                    <div className="relative h-72 w-72 md:h-96 md:w-96">
+                        <
+                            InteractivePortrait />
+
                     </div>
                 </div>
             </div>
