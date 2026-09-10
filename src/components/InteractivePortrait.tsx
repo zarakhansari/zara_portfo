@@ -87,12 +87,14 @@ function InteractivePortrait() {
             onMouseLeave={handleMouseLeave}
             className="relative flex h-72 w-72 items-center justify-center md:h-96 md:w-96"
         >
-            <img
-                src={currentImage}
-                alt="Portrait"
-                draggable={false}
-                className="h-[85%] w-[85%] object-contain"
-            />
+            <div className="relative overflow-hidden rounded-3xl border-4 border-white bg-slate-50 shadow-xl transition-all duration-300 hover:shadow-2xl">
+                <img
+                    src={currentImage}
+                    alt="Portrait"
+                    draggable={false}
+                    className="h-64 w-auto object-contain md:h-80 select-none"
+                />
+            </div>
         </div>
     );
 }
