@@ -56,7 +56,7 @@ function Hero() {
                         </button>
 
                         <a
-                            href=""
+                            href="/ZahraKhansari-FrontendDeveloper-CV.pdf"
                             download="CV"
                             className="flex items-center gap-2 rounded-lg border-2 border-gray-900 bg-white px-6 py-3.5 font-semibold text-gray-900 transition duration-300 hover:-translate-y-0.5 hover:bg-gray-900 hover:text-white"
                         >

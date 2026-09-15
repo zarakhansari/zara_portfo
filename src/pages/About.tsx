@@ -48,7 +48,7 @@ const About = () => {
                             <div className="absolute -left-[41px] top-1 h-5 w-5 rounded-full border-4 border-white bg-purple-500"></div>
 
                             <p className="mb-1 text-sm font-medium text-purple-600">
-                                2023 – Present
+                                2025 – Present
                             </p>
 
                             <h3 className="mb-2 text-xl font-semibold text-gray-900">
